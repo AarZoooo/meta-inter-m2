@@ -6,7 +6,7 @@ This project is a tutorial for learning to create a frontend for our smart contr
 
 The smart contract works on EVM, and the frontend is made using react. We use Hardhat to compile and run our local EVM and perform operations, i.e. the functions we created in our smart contract.
 
-[Assesment.sol](contracts/Assesment.sol) contains the smart contract with functions `getBalance()`, `deposit()` and `withdraw()` which are later imported into [index.js](pages/index.js) to extend to the frontend. Two buttons are present in the frontend that executes these functions and they also handle exceptions in this file.
+[Assessment.sol](contracts/Assessment.sol) contains the smart contract with functions `getBalance()`, `deposit()` and `withdraw()` which are later imported into [index.js](pages/index.js) to extend to the frontend. Two buttons are present in the frontend that executes these functions and they also handle exceptions in this file.
 
 ## Execution
 
